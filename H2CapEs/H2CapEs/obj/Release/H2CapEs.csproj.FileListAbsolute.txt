@@ -1,0 +1,15 @@
+C:\Users\ahassanp\source\repos\H2CapEs\H2CapEs\bin\Release\H2CapEs.exe.config
+C:\Users\ahassanp\source\repos\H2CapEs\H2CapEs\bin\Release\H2CapEs.exe
+C:\Users\ahassanp\source\repos\H2CapEs\H2CapEs\bin\Release\H2CapEs.pdb
+C:\Users\ahassanp\source\repos\H2CapEs\H2CapEs\obj\Release\MainWindow.g.cs
+C:\Users\ahassanp\source\repos\H2CapEs\H2CapEs\obj\Release\App.g.cs
+C:\Users\ahassanp\source\repos\H2CapEs\H2CapEs\obj\Release\H2CapEs_MarkupCompile.cache
+C:\Users\ahassanp\source\repos\H2CapEs\H2CapEs\obj\Release\H2CapEs_MarkupCompile.lref
+C:\Users\ahassanp\source\repos\H2CapEs\H2CapEs\obj\Release\MainWindow.baml
+C:\Users\ahassanp\source\repos\H2CapEs\H2CapEs\obj\Release\H2CapEs.g.resources
+C:\Users\ahassanp\source\repos\H2CapEs\H2CapEs\obj\Release\H2CapEs.Properties.Resources.resources
+C:\Users\ahassanp\source\repos\H2CapEs\H2CapEs\obj\Release\H2CapEs.csproj.GenerateResource.cache
+C:\Users\ahassanp\source\repos\H2CapEs\H2CapEs\obj\Release\H2CapEs.csproj.CoreCompileInputs.cache
+C:\Users\ahassanp\source\repos\H2CapEs\H2CapEs\obj\Release\H2CapEs.exe
+C:\Users\ahassanp\source\repos\H2CapEs\H2CapEs\obj\Release\H2CapEs.pdb
+C:\Users\ahassanp\source\repos\H2CapEs\H2CapEs\obj\Release\H2CapEs.csprojAssemblyReference.cache

@@ -1,0 +1,45 @@
+﻿<Window x:Class="H2CapEs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:H2CapEs"
+        mc:Ignorable="d"
+        Title="H2CapEs" Height="450" Width="800">
+    <Grid>
+        <ComboBox HorizontalAlignment="Left" Margin="151,65,0,0" VerticalAlignment="Top" Width="120" Name="StorageType" SelectionChanged="StorageType_SelectionChanged">
+            <ComboBoxItem x:Name="DepGasF" Content="Depleted Gas Field" />
+            <ComboBoxItem x:Name="SaltC" Content="Salt Cavern" />
+            <ComboBoxItem x:Name="PipeL" Content="Pipeline" />
+            <ComboBoxItem x:Name="LH2" Content="Liquid Hydrogen" />
+            <ComboBoxItem x:Name="CompH2" Content="Gasometer" />
+
+        </ComboBox>
+
+
+        <Label Content="Select Storgae Type" HorizontalAlignment="Left" Margin="34,63,0,0" VerticalAlignment="Top"/>
+        <Label Content="parameter 1" HorizontalAlignment="Left" Margin="34,104,0,0" VerticalAlignment="Top" Width="218" IsEnabled="False" Name="P1" Visibility="Collapsed"/>
+        <TextBox HorizontalAlignment="Left" Margin="257,108,0,0" Text="Enter" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Name="T1" IsEnabled="False" Visibility="Collapsed"/>
+        <Label Content="parameter 2" HorizontalAlignment="Left" Margin="400,104,0,0" VerticalAlignment="Top" Width="223" IsEnabled="False" Name="P2" Visibility="Collapsed"/>
+        <TextBox HorizontalAlignment="Left" Margin="657,108,0,0" Text="Enter" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Name="T2" IsEnabled="False" Visibility="Collapsed" />
+        <Label Content="parameter 3" HorizontalAlignment="Left" Margin="34,138,0,0" VerticalAlignment="Top" Width="218" IsEnabled="False" Name="P3" Visibility="Collapsed"/>
+        <TextBox HorizontalAlignment="Left" Margin="257,138,0,0" Text="Enter" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Name="T3" IsEnabled="False" Visibility="Collapsed"/>
+        <Label Content="Energy (TWH):" HorizontalAlignment="Left" Margin="257,300,0,0" VerticalAlignment="Top" Width="103" FontWeight="Bold" Foreground="#FFD44F1D" IsEnabled="False"/>
+        <Button Content="Get Energy Storage Capacity" HorizontalAlignment="Center" Margin="0,207,0,0" VerticalAlignment="Top" Width="228" Height="50" IsDefault="True" FontWeight="Bold" FontSize="16" FontStyle="Italic" Background="#FF955C5C" Click="Get_Energy_Click" />
+        <TextBox HorizontalAlignment="Left" Margin="394,304,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Name="Tf" FontWeight="Bold"/>
+        <Label Content="parameter 4" HorizontalAlignment="Left" Margin="400,133,0,0" VerticalAlignment="Top" Width="238" Name="P4" IsEnabled="False" Visibility="Collapsed"/>
+        <TextBox HorizontalAlignment="Left" Margin="657,138,0,0" Text="Enter" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Name="T4" IsEnabled="False" Visibility="Collapsed"/>
+        <Label Content="H2CapEs" HorizontalAlignment="Center" Margin="0,13,0,0" VerticalAlignment="Top" Width="113" Height="50" FontSize="36" FontWeight="Bold" FontFamily="Bahnschrift SemiBold Condensed" FontStyle="Normal" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.576"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.443"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Image HorizontalAlignment="Left" Height="43" Margin="601,24,0,0" VerticalAlignment="Top" Width="176" Source="cropped-Logo_HyStorPor-1.png" />
+
+    </Grid>
+</Window>
